@@ -1,0 +1,33 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jss": "^9.8.7",
+    "mongoose": "^5.4.15",
+    "next": "^7.0.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-jss": "^8.6.1",
+    "rxjs": "^6.4.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "styled-jsx": "^3.2.1",
+    "webrtc-adapter": "^7.2.1"
+  }
+}
