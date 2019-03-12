@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import io from 'socket.io-client';
-import 'webrtc-adapter'
 export default class chat extends Component {
     state = {
         socket:null,
